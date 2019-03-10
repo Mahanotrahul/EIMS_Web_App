@@ -497,11 +497,11 @@ ob_end_flush();
 
 															if($row['CheckIn_Approval_Status'] == 1)
 															{
-																echo '<td>Approved</td>';
+																echo '<td>Admins do not require approval</td>';
 															}
 															else
 															{
-																echo '<td>Pending</td>';
+																echo '<td>Admins do not require approval</td>';
 															}
 
 															echo '</tr>';
