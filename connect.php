@@ -16,8 +16,6 @@ else
 	$db_connection_status = "Connected";
 	$error_code = 1;
 	$_SESSION["Login-Key"] = "Vasitars";
-	//print_r($_SESSION);
-	
 }
 ob_end_flush();
 
