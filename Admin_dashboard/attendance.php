@@ -265,6 +265,16 @@ ob_end_flush();
 												}
 												else
 												{
+													echo '<div class="row">
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+															<div class="panel" style="color:#bed4a4; background-color:#4f4a50">
+																<div class="panel-body" style="font-family:Calibri">
+																 Admins do not require approval for their attendance.
+																 </div>
+								 							</div>
+								 						</div>
+								 					</div>';
+
 													echo '<form role="form" action="'.htmlspecialchars($_SERVER["PHP_SELF"]).'" method="post">
 																<div class="row">
 																	<div class="col-lg-12">
