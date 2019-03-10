@@ -1,2 +1,3 @@
+git remote add origin https://github.com/Mahanotrahul/Employee-Information-Management-Web-Application.git
 git status
 git push -u origin master
