@@ -252,7 +252,7 @@ if(isset($_POST['submit']))
 	{
 
 
-		$query = "INSERT INTO member(FNAME, LNAME, SALUTATION, DATE_OF_BIRTH, PHONE_NUMBER, EMAIL, PAN_NUMBER, PASSWORD, SEX, R_FLAT, R_STREET, R_LOCALITY, R_STATE, R_CITY, R_POST_OFFICE, R_PIN, R_DISTRICT, P_FLAT, P_STREET, P_LOCALITY, P_STATE, P_CITY, P_POST_OFFICE, P_PIN, P_DISTRICT) VALUES('$fname', '$lname', '$salutation', '$dob', '$phone_number', '$email', '$pan', '$password', '$gender', '$r_flat', '$r_street', '$r_locality', '$r_state', '$r_city', '$r_post_office', '$r_pin', '$r_dist', '$p_flat', '$p_street', '$p_locality', '$p_state', '$p_city', '$p_post_office', '$p_pin', '$p_dist')";
+		$query = "INSERT INTO member(FNAME, LNAME, SALUTATION, DATE_OF_BIRTH, PHONE_NUMBER, EMAIL, PAN_NUMBER, PASSWORD, SEX, R_FLAT, R_STREET, R_LOCALITY, R_STATE, R_CITY, R_POST_OFFICE, R_PIN, R_DISTRICT, P_FLAT, P_STREET, P_LOCALITY, P_STATE, P_CITY, P_POST_OFFICE, P_PIN, P_DISTRICT, LOC_ID) VALUES('$fname', '$lname', '$salutation', '$dob', '$phone_number', '$email', '$pan', '$password', '$gender', '$r_flat', '$r_street', '$r_locality', '$r_state', '$r_city', '$r_post_office', '$r_pin', '$r_dist', '$p_flat', '$p_street', '$p_locality', '$p_state', '$p_city', '$p_post_office', '$p_pin', '$p_dist', '1')";
 
 
 
