@@ -315,7 +315,7 @@ ob_end_flush();
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="icon" href="<?php echo $vasitars_logo_location; ?>" type="image/x-icon">
+	<link rel="icon" href="images/vasitars_logo.png" type="image/x-icon">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Vasitars">
@@ -329,7 +329,7 @@ ob_end_flush();
     <meta http-equiv="Expires" content="0" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Employee registration | Vasitars</title>
+	<title>Employee Registration | Vasitars</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
@@ -782,7 +782,7 @@ ob_end_flush();
 
 
 		<div class="col-sm-12">
-				<p class="back-link">© Vasitars 2019</p>
+				<p class="back-link">&copy; Vasitars <?php echo date("Y") ?> | <span style="text-transform:capitalize;">Developed by <a href="http://thecodeboxed.com" style="color:inherit">Rahul Mahanot</a></span></p>
 			</div>
 		</div>
 
