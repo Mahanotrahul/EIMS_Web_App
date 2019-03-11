@@ -42,7 +42,7 @@ if(isset($_POST['submit']))
 
 	if(empty($salutation))
 	{
-		$salutation_err = "Gender is Required";
+		$salutation_err = "Salutation is Required";
 	}
 	else
 	{
@@ -418,7 +418,6 @@ ob_end_flush();
 																	<option value="Mr.">Mr.</option>
 																	<option value="Ms.">Ms.</option>
 																	<option value="Mrs.">Mrs.</option>
-																	<option value="None">I do not want to identify</option>
 															</select>
 													</div>
                         	<div class="col-lg-4 col-md-4">
