@@ -260,7 +260,7 @@ if(isset($_POST['submit']))
 			$row = mysqli_fetch_assoc($query);
 			$id = $row['ID'];
 
-			$target_dir = "dashboard/profile/";
+			$target_dir = "dashboard/profile_picture/";
 			$file_name = $_FILES['userfile']['name'];
 
 			$imagefiletype = pathinfo($file_name,PATHINFO_EXTENSION);
